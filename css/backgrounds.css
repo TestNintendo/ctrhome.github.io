@@ -5,6 +5,12 @@ body.default {
     background-repeat: no-repeat, repeat;
 }
 
+body.candyflick {
+    background-image: url("https://ctrhome.github.io/img/bg-orange.jpg"),url("https://ctrhome.github.io/img/bg-orange.jpg");
+    background-color: #F2A205;
+    background-repeat: repeat, repeat;
+}
+
 body.experiments {
     background-image: url("https://ctrhome.github.io/img/expbg.webp");
     background-color: #1177EA;
