@@ -28,6 +28,15 @@
     // nav.appendChild(createLink("/modding", "Modding"));
     nav.appendChild(createLink("/extras", "Extras"));
 
+    //holiday stuff
+    const snowScript = document.createElement('script');
+    const snowDiv = document.createElement('div');
+    snowDiv.classList.add('rain');
+    snowScript.src = "/js/rain.js";
+    document.body.appendChild(snowDiv);
+    document.body.appendChild(snowScript);
+    
+
     // Add the hamburger icon
     const iconLink = document.createElement("a");
     iconLink.href = "javascript:void(0);";

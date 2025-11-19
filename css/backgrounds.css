@@ -50,7 +50,7 @@ body.timetravel {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -100;
+    z-index: -1000;
 }
 
 .ctr2bg {
@@ -64,7 +64,7 @@ body.timetravel {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -100;
+    z-index: -1000;
 }
 
 .magicbg {
@@ -78,7 +78,7 @@ body.timetravel {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -100;
+    z-index: -1000;
 }
 
 body.magic {
